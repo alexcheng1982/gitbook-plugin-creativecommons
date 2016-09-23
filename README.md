@@ -1,2 +1,25 @@
 # gitbook-plugin-creativecommons
-Display Creative Commons license badge and link
+
+This Gitbook plugin displays [Creative Commons license](https://creativecommons.org/choose/) badge and link for your book.
+
+## Install
+
+Add following to `book.json`.
+
+```
+{
+  "plugins": ["creativecommons"]
+}
+```
+
+## Usage
+
+```
+{% creativecommons type="by-nc-nd" %}
+{% endcreativecommons %}
+```
+
+### Configurations
+
+* `type` - license type, possible values: `by` (default), `by-nd`, `by-sa`, `by-sa`, `by-nc`, `by-nc-nd`, `by-nc-sa`.
+* `iconSize` - icon size, possible values: `normal` (default), `compact`.

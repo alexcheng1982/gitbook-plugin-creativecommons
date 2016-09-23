@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-plugin-creativecommons",
+  "version": "1.0.0",
+  "description": "Display Creative Commons license badge and link",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcheng1982/gitbook-plugin-creativecommons.git"
+  },
+  "keywords": [
+    "gitbook",
+    "creativecommons"
+  ],
+  "author": "Fu Cheng <alexcheng1982@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcheng1982/gitbook-plugin-creativecommons/issues"
+  },
+  "homepage": "https://github.com/alexcheng1982/gitbook-plugin-creativecommons#readme",
+  "dependencies": {
+    "mustache": "^2.2.1"
+  }
+}
