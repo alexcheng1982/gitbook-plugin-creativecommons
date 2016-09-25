@@ -21,5 +21,6 @@ Add following to `book.json`.
 
 ### Configurations
 
-* `type` - license type, possible values: `by` (default), `by-nd`, `by-sa`, `by-sa`, `by-nc`, `by-nc-nd`, `by-nc-sa`.
+* `type` - license type, possible values: `by` (default), `by-nd`, `by-sa`, `by-nc`, `by-nc-nd`, `by-nc-sa`.
 * `iconSize` - icon size, possible values: `normal` (default), `compact`.
+* `iconOnly` - display icon only, possible values: any string. Setting to `true` will hide text and display only the icon.

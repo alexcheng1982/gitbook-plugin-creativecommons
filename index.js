@@ -17,6 +17,7 @@ module.exports = {
       process: function(block) {
         var type = block.kwargs.type || 'by';
         var iconSize = block.kwargs.iconSize || 'normal';
+        var iconOnly = block.kwargs.iconOnly === 'true';
         if (!licenseNames[type]) {
           return 'Invalid license type';
         }
@@ -24,7 +25,8 @@ module.exports = {
         return Mustache.render(template, {
           type: type,
           name: licenseNames[type],
-          iconSize: iconSize === 'compact' ? '80x15' : '88x31'
+          iconSize: iconSize === 'compact' ? '80x15' : '88x31',
+          iconOnly: iconOnly
         });
       }
     }
