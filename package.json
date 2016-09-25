@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-creativecommons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display Creative Commons license badge and link",
   "main": "index.js",
   "engines": {
