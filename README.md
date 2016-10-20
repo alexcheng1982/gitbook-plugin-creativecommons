@@ -1,4 +1,6 @@
-# gitbook-plugin-creativecommons
+# Gitbook plugin to display creative commons badge
+
+[![NPM](https://nodei.co/npm/gitbook-plugin-creativecommons.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gitbook-plugin-creativecommons/)
 
 This Gitbook plugin displays [Creative Commons license](https://creativecommons.org/choose/) badge and link for your book.
 
